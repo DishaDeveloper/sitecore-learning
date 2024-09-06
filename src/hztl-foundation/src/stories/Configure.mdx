@@ -1,0 +1,73 @@
+import { Meta } from "@storybook/blocks";
+
+export const RightArrow = () => <svg 
+    viewBox="0 0 14 14" 
+    width="8px" 
+    height="14px" 
+    style={{ 
+      marginLeft: '4px',
+      display: 'inline-block',
+      shapeRendering: 'inherit',
+      verticalAlign: 'middle',
+      fill: 'currentColor',
+      'path fill': 'currentColor'
+    }}
+>
+  <path d="m11.1 7.35-5.5 5.5a.5.5 0 0 1-.7-.7L10.04 7 4.9 1.85a.5.5 0 1 1 .7-.7l5.5 5.5c.2.2.2.5 0 .7Z" />
+</svg>
+
+<Meta title="Overview" />
+
+<div className="sb-container">
+  <div className="sb-content">
+    <div className="sb-section-title">
+      # Horizontal Digital &#8212; Component Reference Library
+    </div>
+    <div className="sb-section">
+      This site serves as a development resource for DX engineers building applications for our clients. It offers a variety of helpers and components that you can reference and/or utilize in your projects. Our goal is to enable engineering teams to build with speed, consistency, and quality. This resource will be continually updated with components that reflect our best practices and provide optimal development approaches for headless implementations.
+    </div>
+    <div className="sb-section">
+    These building blocks also leverage foundational component layouts, design elements, and patterns from the <a href="https://www.figma.com/design/OSjeuhDUm8SoGaS6YZcp5V/UX-Wireframe-Library" target="_blank">UX Wireframe Library</a>. Future plans are to explore ways to cohesively integrate and sync design system definitions into our codebase.
+    </div>
+  </div>
+</div>
+
+<style>
+  {`
+  .sb-container {
+    padding-bottom: 20px;
+    margin-bottom: 40px;
+  }
+
+
+  .sb-section-title h1 {
+    padding-bottom: 20px;
+    margin-bottom: 40px;
+    border-bottom: 1px solid #ccc;
+
+  }
+
+  .sb-content {
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 4px 12px;
+    padding: 3rem 4rem;
+    
+  }
+
+  .sb-content p {
+    font-size: 1rem;
+  }
+
+  .sb-content a {
+    color: #065264;
+    text-decoration: underline;
+  }
+
+
+  .sb-section {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+  }
+  `}
+</style>

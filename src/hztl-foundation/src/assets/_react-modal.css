@@ -1,0 +1,27 @@
+/* stylelint-disable selector-class-pattern */
+
+.ReactModal__Overlay {
+  opacity: 0;
+  transition: opacity 300ms ease-in-out;
+}
+
+.ReactModal__Overlay--after-open {
+  opacity: 1;
+}
+
+.ReactModal__Overlay--before-close {
+  opacity: 0;
+}
+
+.ReactModal__Content {
+  margin-top: 50px;
+  transition: margin 300ms ease-in-out;
+}
+
+.ReactModal__Content--after-open {
+  margin-top: 0;
+}
+
+.ReactModal__Content--before-close {
+  margin-top: 50px;
+}

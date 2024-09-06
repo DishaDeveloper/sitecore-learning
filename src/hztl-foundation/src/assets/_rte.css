@@ -1,0 +1,155 @@
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .rte h1 {
+    @apply  text-sm-xl sm:text-xl font-bold;
+  }
+
+  .rte h2 {
+    @apply text-sm-l  sm:text-l font-bold;
+  }
+
+  .rte h3 {
+    @apply text-sm-m sm:text-m font-bold;
+  }
+
+  .rte h4,
+  .rte h5,
+  .rte h6 {
+    @apply text-sm-s sm:text-sub-heading ;
+  }
+
+
+  .rte h1,
+  .rte h2,
+  .rte h3,
+  .rte h4,
+  .rte h5,
+  .rte h6 {
+    @layer mb-4;
+  }
+
+  /* If you're using invalid combinations, you don't get nice styling. */
+  .rte h2 + h3,
+  .rte h3 + h4,
+  .rte h4 + h5,
+  .rte h5 + h6 {
+    @layer mt-6;
+  }
+
+  .rte h2:first-child,
+  .rte h3:first-child,
+  .rte h4:first-child,
+  .rte h5:first-child,
+  .rte h6:first-child {
+    @layer mt-0;
+  }
+
+  .rte p,
+  .rte a,
+  .rte ul,
+  .rte ol {
+    @layer text-base leading-4 sm:text-base sm:leading-5;
+  }
+
+  .rte a {
+    @layer hover:underline font-semibold;
+  }
+
+  .rte p,
+  .rte ul,
+  .rte ol {
+    @layer mb-6;
+  }
+
+  .rte ul {
+    @layer list-disc pl-6 marker:text-xs;
+  }
+
+  .rte ul ul {
+    @layer pt-4;
+
+    list-style: circle;
+  }
+
+  .rte ol {
+    @layer list-decimal pl-4;
+  }
+
+  .rte hr {
+    @layer my-12;
+  }
+
+  .rte b,
+  .rte strong {
+    @apply font-bold;
+  }
+
+  .rte ul > li,
+  .rte ol > li {
+    @layer mb-3;
+  }
+
+  .rte ul > li:last-child,
+  .rte ol > li:last-child {
+    @layer mb-0;
+  }
+
+  .rte > *:last-child {
+    @layer mb-0;
+  }
+
+  .rte .rte-align-left {
+    @apply text-left;
+  }
+
+  .rte .rte-align-center {
+    @apply text-center;
+  }
+
+  .rte .rte-align-right {
+    @apply text-right;
+  }
+
+  .rte .rte-align-justify {
+    @apply text-justify;
+  }
+
+  .rte .rte-indent-none {
+    @apply pl-0;
+  }
+
+  .rte .rte-indent-1 {
+    @apply pl-10;
+  }
+
+  .rte .rte-indent-2 {
+    @apply pl-20;
+  }
+
+  .rte .rte-indent-3 {
+    @apply pl-32;
+  }
+
+  .rte .rte-indent-4 {
+    @apply pl-40;
+  }
+
+  .rte .rte-indent-5 {
+    @apply pl-48;
+  }
+
+  .rte .rte-indent-6 {
+    @apply pl-60;
+  }
+
+  .rte .rte-indent-7 {
+    @apply pl-72;
+  }
+
+  .rte .rte-indent-8 {
+    @apply pl-80;
+  }
+
+}

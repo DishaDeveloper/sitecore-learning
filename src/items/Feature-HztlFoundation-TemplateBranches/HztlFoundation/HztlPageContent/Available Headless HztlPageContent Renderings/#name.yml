@@ -1,0 +1,41 @@
+﻿---
+ID: "3b1b96dc-d773-41c3-bf29-22d7fe941875"
+Parent: "62a0976c-8a31-4f15-9d7e-711199f4e5bc"
+Template: "76da0a8d-fc7e-42b2-af1e-205b49e43f98"
+Path: /sitecore/templates/Branches/Feature/HztlFoundation/HztlPageContent/Available Headless HztlPageContent Renderings/$name
+SharedFields:
+- ID: "715ae6c0-71c8-4744-ab4f-65362d20ad65"
+  Hint: Renderings
+  Value: |
+    {85CB0456-D361-4936-A03E-8E655F4A1436}
+    {1B5EE0C2-36B4-4C3D-A675-4C7AEFED9404}
+    {98956ACA-6A3A-4B94-85D4-40DDF64D0F85}
+    {AB05F41A-E2BE-4E42-8446-A215D02BC6A2}
+    {737B96A7-D9CD-4E2B-9E2D-C73F00571FC9}
+    {8629A578-2456-48B6-B58C-E883A642A97A}
+    {E0F9706B-ED5D-4ACE-BE4D-4ED5CBE969A4}
+    {286D51EF-1A33-4920-9009-569A66A27629}
+    {F32A895A-7441-46EB-9E05-B82C86115CE0}
+    {51E59991-8711-4229-AA31-1E24AF4C9045}
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20171113T104335Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "42f6be5a-0b9b-47dc-922f-d004fc696022"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\vthakur@horizontal.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20240709T131723Z

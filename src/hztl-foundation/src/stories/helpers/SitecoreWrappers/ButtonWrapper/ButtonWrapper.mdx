@@ -1,0 +1,23 @@
+import { Canvas, Meta } from '@storybook/blocks';
+import * as ButtonWrapperStories from './ButtonWrapper.stories';
+
+<Meta of={ButtonWrapperStories} />
+
+# Button Wrapper
+
+## Overview
+
+ButtonWrapper presents an interactive element that triggers a response when initiated by a user. It helps you render the content of its Sitecore field type.
+
+## Usage
+
+ButtonWrapper should be used when you need a mechanism to submit/reset a form, open a dialog/menu, and/or another function as an interface control i.e. previous/next arrows, expand/collapse accordions, etc.
+
+Basically, if you cannot enter a real https:// URL as the href value, you should use ButtonWrapper (over LinkWrapper).
+
+Note: A button does not provide the “Open link in…” options in its context menu (i.e. right click > open new window). If you need these native link features, you should switch to LinkWrapper.
+
+## Live Demo
+
+<Canvas of={ButtonWrapperStories.Default} />
+

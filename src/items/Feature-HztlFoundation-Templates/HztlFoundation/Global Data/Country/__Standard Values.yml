@@ -1,0 +1,31 @@
+﻿---
+ID: "ddff7b05-23cc-4858-b00a-30135ab83809"
+Parent: "628b007c-334f-40f6-a849-aaa4b566fb74"
+Template: "628b007c-334f-40f6-a849-aaa4b566fb74"
+Path: /sitecore/templates/Feature/HztlFoundation/Global Data/Country/__Standard Values
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20240620T112428Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\dhruvi.patel@horizontal.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\dhruvi.patel@horizontal.com
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "017b0f19-9d9e-42b2-b37f-31d152516db8"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\dhruvi.patel@horizontal.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20240620T112428Z

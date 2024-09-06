@@ -1,0 +1,96 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import './_react-modal.css';
+@import './_rte.css';
+
+/*
+  Hides Sitecore editor markup,
+  if you run the app in connected mode while the Sitecore cookies
+  are set to edit mode.
+*/
+.scChromeData,
+.scpm {
+  display: none !important;
+}
+
+/*
+  Styles for default JSS error components
+*/
+.sc-jss-editing-error,
+.sc-jss-placeholder-error {
+  padding: 1em;
+  background-color: lightyellow;
+}
+
+/* 
+  Style for default content block
+*/
+.contentTitle {
+  font-size: 3.5rem;
+  font-weight: 300;
+  line-height: 1.2;
+}
+
+.hamburger-lines .line {
+  background-color: black;
+}
+
+.toggle-menu input[type='checkbox']:checked ~ .hamburger-lines .line1 {
+  transform: rotate(45deg);
+}
+
+.toggle-menu input[type='checkbox']:checked ~ .hamburger-lines .line2 {
+  transform: scaleY(0);
+}
+
+.toggle-menu input[type='checkbox']:checked ~ .hamburger-lines .line3 {
+  transform: rotate(-45deg);
+}
+
+.chevron-transform {
+  @apply transition-transform duration-100;
+}
+
+.splide__pagination__page {
+  border: 1px solid gray !important;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+button[data-state='closed'] .facets-accordian-arrow {
+  transform: rotate(180deg);
+  transition: transform 0.2s ease-in-out;
+}
+
+button[data-state='open'] .facets-accordian-arrow {
+  transform: rotate(0deg);
+  transition: transform 0.2s ease-in-out;
+}
+
+/* Custom Header Link */
+.header-link {
+  border-bottom-width: 0;
+  background-image: linear-gradient(transparent, transparent), linear-gradient(#fff, #fff);
+  background-size: 0 3px;
+  background-position: 0 100%;
+  background-repeat: no-repeat;
+  transition: background-size .5s ease-in-out;
+}
+
+.header-link-black {
+  background-image: linear-gradient(transparent, transparent), linear-gradient(#000000, #000000)
+}
+
+.header-link:hover {
+  background-size: 100% 3px;
+  background-position: 0 100%;
+}
+
